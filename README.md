@@ -1,2 +1,29 @@
+<<<<<<< HEAD
 # hello-api
 Shipping Go
+=======
+# Hello API
+ 
+## Release Milestones
+ 
+### V0 (1 day)
+- [ ] Onboarding Documentation
+- [ ] Simple API response (hello world!)
+- [ ] Unit tests
+- [ ] Running somewhere other than the dev machine
+ 
+### V1 (7 days)
+- [ ] Create translation endpoint
+- [ ] Store translations in short-term storage
+- [ ] Call existing service for translation
+- [ ] Move towards long-term storage
+
+## Dependencies
+ 
+- Go version 1.21
+ 
+## Setup
+ 
+## Release Milestones
+...
+>>>>>>> 1108041 (Initial creation)
