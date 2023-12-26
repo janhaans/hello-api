@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# hello-api
-Shipping Go
-=======
 # Hello API
  
 ## Release Milestones
@@ -25,5 +21,4 @@ Shipping Go
 ## Setup
  
 ## Release Milestones
-...
->>>>>>> 1108041 (Initial creation)
+..
