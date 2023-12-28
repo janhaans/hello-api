@@ -46,7 +46,7 @@ func TestTranslate(t *testing.T) {
 		{
 			Word:        "hello",
 			Language:    "dutch",
-			Translation: "",
+			Translation: "hal",
 		},
 		{
 			Word:        "bye",
