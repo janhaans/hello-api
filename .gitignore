@@ -19,8 +19,8 @@
 
 # Go workspace file
 go.work
-<<<<<<< HEAD
-=======
 
 api
->>>>>>> 1108041 (Initial creation)
+
+coverage.out
+cover.html
