@@ -17,7 +17,7 @@ jobs:
     - name: Downloads
       run: go get -t ./...
     - name: Run Test
-      run: go test ./..
+      run: go test ./...
   build:
     name: Build App
     runs-on: ubuntu-latest
