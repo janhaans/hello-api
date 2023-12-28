@@ -5,11 +5,23 @@ on:
     branches:
       - main
 jobs:
+  test:
+    name: Test Application
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-go@v4
+      with:
+        go-version: '>=1.21.0'
+    - run: go version
+    - name: Downloads
+      run: go get -t ./...
+    - name: Run Test
+      run: go test ./..
   build:
     name: Build App
     runs-on: ubuntu-latest
     steps:
-
     - uses: actions/checkout@v4
     - uses: actions/setup-go@v4
       with:
