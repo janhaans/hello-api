@@ -87,3 +87,4 @@ jobs:
         asset_path: api
         asset_name: api
         asset_content_type: application/octet-stream
+        
