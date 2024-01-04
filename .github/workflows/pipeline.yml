@@ -106,5 +106,6 @@ jobs:
         entry_point: Translate
         runtime: go121
         credentials: ${{ secrets.gcp_credentials }}
+        project_id: hello-api-409709
     - id: test
       run: curl "${{ steps.deploy.outputs.url }}/hello"
