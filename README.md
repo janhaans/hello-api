@@ -59,3 +59,7 @@ etag: BwYOJmkvrQM=
 version: 1
 ``` 
 - Make the Cloud Function public by granting "allUsers" the role "Cloud Function Invoker"
+
+See `deploy-paas` job in Github workflow. This job automatically deploys the app on GCP App Engine
+
+- Enable `App Engine Admin API` by visiting https://console.developers.google.com/apis/api/appengine.googleapis.com/overview?project=875030482222

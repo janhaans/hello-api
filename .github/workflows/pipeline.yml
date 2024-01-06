@@ -128,7 +128,7 @@ jobs:
         credentials_json: ${{ secrets.gcp_credentials }}
     - name: Deploy App
       id: deploy
-      uses: google-github-actions/deploy-appengine@main
+      uses: google-github-actions/deploy-appengine@v2
       with:
         project_id: hello-api-409709
     - id: test
