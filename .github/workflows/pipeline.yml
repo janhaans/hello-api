@@ -112,8 +112,6 @@ jobs:
         project_id: hello-api-409709
     - id: test
       run: curl "${{ steps.deploy.outputs.url }}/hello"
-
-  name: CI Checks
  
   deploy-paas:
     name: Deploy PaaS
